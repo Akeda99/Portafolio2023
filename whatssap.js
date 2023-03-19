@@ -35,7 +35,7 @@ const formSend = () => {
     // apertura del objeto window que nos permitira entrar a la aplicación de whatsApp
     // Sele manda la url ya que es la api que nos permite enviar la informacion de formulario por whatsApp
 
-    window.open(url);
+    window.open(url, "_blank");
 };
 
 // -------------------------------------------------------------------------------------------------
